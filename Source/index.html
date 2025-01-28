@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>CatPhotoApp</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>CatPhotoApp</h1>
+        <h2>Fotos de Gatos</h2>
+        <!-- TODO: adicionar links -->
+        <p>Todo mundo gosta de ver gatos fofos online!</p>
+        <p>Veja mais fotos de gatos na nossa galeria.</p>
+        <img src="Images/relaxing-cat.jpg">
+      </section>
+      <section>
+        <h2>Listas Sobre Gatos</h2>
+        <h3>Coisas que gatos gostam:</h3>
+        <ul>
+          <li>Ervas-Gateiras</li>
+          <li>Lasers</li>
+          <li>Lasanha
+        </ul>
+        <figure>
+          <img src="Images/lasagna.jpg">
+          <figcaption>Gatos <em>amam</em> lasanha</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h3>Top 3 coisas que gatos odeiam:</h3>
+        <ol>
+          <li>Tratamento de pulgas</li>
+          <li>Trovões</li>
+          <li>Outros gatos</li>
+        </ol>
+        <figure>
+          <img src="Images/cats.jpg">
+          <figcaption>Gatos <strong>odeiam</strong> outros gatos</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2>Formulário de Gatos</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>O seu gato passa o dia dentro ou fora de casa?</legend>
+            <label><input checked type="radio" id="dentro" name="dentro-fora" value="dentro"> Dentro de Casa</label>
+            <label><input type="radio" id="fora" name="dentro-fora" value="fora"> Fora de Casa</label>
+          </fieldset>
+          <fieldset>
+            <legend>Como é a personalidade do seu gato</legend>
+            <input checked type="checkbox" id="dengoso" name="personalidade" value="dengoso"> <label for="dengoso">Dengoso</label>
+            <input type="checkbox" id="preguiçoso" name="personalidade" value="preguiçoso"> <label for="preguiçoso">Preguiçoso</label>
+            <input type="checkbox" id="animado" name="personalidade" value="animado"> <label for="animado">Animado</label>
+          </fieldset>
+          <input type="text" placeholder="URL da foto do gato" name="fotogato" required>
+          <button type="submit"> Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <!-- Adicionar mais informações -->
+    </footer>
+  </body>
+</html>
